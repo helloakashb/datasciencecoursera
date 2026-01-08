@@ -1,8 +1,0 @@
-name: test23
-on: workflow_dispatch 
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Output github context
-      uses: echo "${{ toJSON(github.event_name) }}"
