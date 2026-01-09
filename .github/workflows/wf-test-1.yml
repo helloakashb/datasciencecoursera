@@ -1,0 +1,10 @@
+name: WF Test 1
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    types:
+      - opened
+  workflow_dispatch:
